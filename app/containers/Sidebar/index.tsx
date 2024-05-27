@@ -76,11 +76,11 @@ export function SideBar(props: { className?: string }) {
             activeClassName: "shadow-sidebar-btn-shadow",
             className: "mb-4 hover:bg-sidebar-btn-hovered",
           },
-          {
-            id: "github",
-            icons: <GitHubIcon />,
-            className: "!p-2 mb-3 hover:bg-sidebar-btn-hovered",
-          },
+          // {
+          //   id: "github",
+          //   icons: <GitHubIcon />,
+          //   className: "!p-2 mb-3 hover:bg-sidebar-btn-hovered",
+          // },
           {
             id: Path.Settings,
             icons: {

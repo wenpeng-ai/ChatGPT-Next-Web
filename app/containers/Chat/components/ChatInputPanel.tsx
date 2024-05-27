@@ -220,7 +220,7 @@ export default forwardRef<ChatInputPanelInstance, ChatInputPanelProps>(
           className={`
             flex
             max-md:flex-row-reverse max-md:items-center max-md:gap-2 max-md:p-3
-            md:flex-col md:px-5 md:pb-5
+            md:flex-col md:px-5 md:pb-1
           `}
         >
           <ChatActions

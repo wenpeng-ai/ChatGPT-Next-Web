@@ -13,6 +13,7 @@ import { useEffect } from "react";
 
 import AddIcon from "@/app/icons/addIcon.svg";
 import NextChatTitle from "@/app/icons/nextchatTitle.svg";
+import XjLogo from "@/app/icons/xj_logo.svg";
 
 import MenuLayout from "@/app/components/MenuLayout";
 import Panel from "./ChatPanel";
@@ -73,8 +74,14 @@ export default MenuLayout(function SessionList(props) {
           `}
           data-tauri-drag-region
         >
-          <div className="">
-            <NextChatTitle />
+          <div className="flex items-center gap-3">
+            {/* <NextChatTitle /> */}
+            <div className="w-8">
+              <XjLogo />
+            </div>
+            <div style={{ fontSize: 22, color: "#2e42f3", fontWeight: 500 }}>
+              新界 AI
+            </div>
           </div>
           <div
             className=" cursor-pointer"
