@@ -274,7 +274,7 @@ function _Chat() {
       <ChatInputPanel ref={chatInputPanelRef} {...chatinputPanelProps} />
 
       <div className="w-full flex justify-center text-sm py-1">
-        <a href="https://beian.miit.gov.cn/">鄂ICP备2023001175号-2</a>
+        <a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2023001175号-2</a>
       </div>
 
       {showExport && (
